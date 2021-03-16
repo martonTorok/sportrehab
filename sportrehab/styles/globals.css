@@ -1,16 +1,28 @@
 html,
 body {
   padding: 0;
-  margin: 0;
+  margin : 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-  color: inherit;
+  color          : inherit;
   text-decoration: none;
 }
 
 * {
   box-sizing: border-box;
 }
+
+.nav-menu:hover::after {
+  height          : 2px;
+  width           : 100%;
+  background-color: #63BB81;
+  position        : absolute;
+}
+
+/* 
+.nav-menu {
+  border-bottom: 2px solid transparent;
+} */
